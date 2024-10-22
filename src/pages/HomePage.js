@@ -1,15 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage'; // relative path to the HomePage file
-import Authenticate from './pages/Authenticate'; // relative path to the Authenticate file
+import HomePage from './pages/HomePage';
+import Authenticate from './pages/Authenticate';
 import Places from './pages/Places';
 import AddProperty from './components/AddProperty';
 import UpdateProperty from './components/UpdateProperty';
 import PlaceDetails from './components/PlaceDetails';
-import SignUp from './components/SignUp';
-import SignIn from './components/SignIn';
-
-
+import SignUp from './components/SignUp';  // Import SignUp component
+import SignIn from './components/SignIn';  // Import SignIn component
 
 function App() {
   return (
